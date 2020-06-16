@@ -17,12 +17,16 @@ router.get('/pokemon', function(req, res) {
   res.render('pokemon')
 });
 
+
+router.get('/restaurants', function (req, res) {
+  res.render('restaurants')
+
 router.get('/transformers', function(req, res) {
   res.render('transformers')
 })
 
 router.get('/bikes', function(req, res) {
-  res.render('bikes');
+  res.render('bikes')
 })
 
 module.exports = router;
