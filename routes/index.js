@@ -12,7 +12,12 @@ router.get('/ocean', function(req, res) {
   res.render('ocean');
 })
 
+router.get('/pokemon', function(req, res) {
+  res.render('pokemon')
+});
+
 router.get('/transformers', function(req, res) {
   res.render('transformers')
 })
+
 module.exports = router;
