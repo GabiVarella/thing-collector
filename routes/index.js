@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/pokemon', function(req, res) {
+  res.render('pokemon')
+});
+
 module.exports = router;
