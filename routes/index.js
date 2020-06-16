@@ -8,5 +8,8 @@ router.get("/", function (req, res, next) {
 router.get("/sodas", function (req, res, next) {
   res.render("sodas");
 });
+router.get('/ocean', function(req, res) {
+  res.render('ocean');
+})
 
 module.exports = router;
